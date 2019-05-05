@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ed3f459-b3ba-4643-98be-d407de7a91f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="5" selection-end-line="42" />
+            <state relative-caret-position="510">
+              <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="e#138#139#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
@@ -64,6 +60,26 @@
                 <element signature="e#637#638#0" expanded="true" />
                 <element signature="e#677#678#0" expanded="true" />
                 <element signature="e#726#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="32" lean-forward="true" selection-end-line="47" />
+              <folding>
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Car.java" />
         <option value="$PROJECT_DIR$/src/SimpleCalculator.java" />
+        <option value="$PROJECT_DIR$/src/Person.java" />
       </list>
     </option>
   </component>
@@ -168,12 +185,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557064314981</updated>
       <workItem from="1557064316574" duration="301000" />
-      <workItem from="1557064727532" duration="2543000" />
+      <workItem from="1557064727532" duration="3086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2844000" />
+    <option name="totallyTimeSpent" value="3387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1315" extended-state="6" />
@@ -190,7 +207,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32951757" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32951757" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32951757" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -198,7 +215,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32951757" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32951757" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-end-line="42" />
+        <state relative-caret-position="510">
+          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding>
             <element signature="e#138#139#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
@@ -253,6 +270,24 @@
             <element signature="e#637#638#0" expanded="true" />
             <element signature="e#677#678#0" expanded="true" />
             <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="32" lean-forward="true" selection-end-line="47" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
           </folding>
         </state>
       </provider>

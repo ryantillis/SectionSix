@@ -6,17 +6,23 @@ public class Account {
     private String email;
     private String phoneNumber;
 
-    public Account() {
-        this("12345", 0,"Default","Default", "Default");
-        System.out.println("Empty account generated.");
-    }
-
     public Account(int accountNumber, double balance, String customerName, String email, String phoneNumber) {
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.customerName = customerName;
         this.email = email;
         this.phoneNumber = phoneNumber;
+
+        //For overloaded constructor methods, it is best to have a single constructor which is called by the others
+    }
+
+    public Account() {
+        this(12345, 0,"Default","Default", "Default");
+        System.out.println("Empty account generated.");
+    }
+
+    public Account(String customerName, String email, String phoneNumber) {
+        this(99999, 0.00, customerName, email, phoneNumber);
     }
 
 
@@ -65,8 +71,8 @@ public class Account {
     }
 
     public void withdrawFunds(int withdrawalAmount) {
-        if (getBalance() - withdrawalAmount >= 0) {
-            setBalance(getBalance() - withdrawalAmount);
+        if (this.balance - withdrawalAmount >= 0) {
+            this.balance = (this.balance - withdrawalAmount);
         } else {
             System.out.println("Insufficient Funds.");
         }

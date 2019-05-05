@@ -23,16 +23,26 @@ public class Main {
 //        Account bobsAccount = new Account("Bob", "bob@me.com", "12345");
 //        System.out.println(bobsAccount.getEmail() + " " + bobsAccount.getCustomerName());
 
-        VipCustomer ryan = new VipCustomer();
-        System.out.println(ryan.getName());
+//        VipCustomer ryan = new VipCustomer();
+////        System.out.println(ryan.getName());
+////
+////        VipCustomer bob = new VipCustomer("Bob", "bob@me.com");
+////        System.out.println(bob.getName());
+////
+////        VipCustomer jay = new VipCustomer("jay", "jay@me.com", 2000);
+////        System.out.println(jay.getName());
+////        System.out.println(jay.getEmail());
+////        System.out.println(jay.getCreditLimit());
 
-        VipCustomer bob = new VipCustomer("Bob", "bob@me.com");
-        System.out.println(bob.getName());
+        Wall wall = new Wall(5,4);
+        System.out.println("area = " + wall.getArea());
 
-        VipCustomer jay = new VipCustomer("jay", "jay@me.com", 2000);
-        System.out.println(jay.getName());
-        System.out.println(jay.getEmail());
-        System.out.println(jay.getCreditLimit());
+        wall.setHeight(-1.5);
+
+        System.out.println("width = " + wall.getWidth());
+        System.out.println("height = " + wall.getHeight());
+        System.out.println("area = " + wall.getArea());
+
     }
 
 

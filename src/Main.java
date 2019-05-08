@@ -76,13 +76,34 @@ public class Main {
 //        System.out.println("number.real = " + number.getReal());
 //        System.out.println("number.imaginary = " + number.getImaginary());
 
-        Animal animal = new Animal("Animal", 1,1,5,5);
-        Dog dog = new Dog("Yorkie", 8,20,2,20,2,4,1,20, "Shoob");
+//        Animal animal = new Animal("Animal", 1,1,5,5);
+//        Dog dog = new Dog("Yorkie", 8,20,2,20,2,4,1,20, "Shoob");
+//
+//
+//        dog.eat();
+//        dog.walk();
+//        dog.run();
+
+        House blueHouse = new House("blue");
+        House anotherHouse = blueHouse; //Still one house, multiple references to the same object in memory
 
 
-        dog.eat();
-        dog.walk();
-        dog.run();
+        System.out.println(blueHouse.getColor()); //same color because it is the same reference
+        System.out.println(anotherHouse.getColor());
+
+
+        anotherHouse.setColor("red"); //Setting color for a single reference changes it for the original object/instance
+        System.out.println(blueHouse.getColor());
+        System.out.println(anotherHouse.getColor());
+
+
+        House greenHouse = new House("green");//Changes reference to greenhouse
+        anotherHouse = greenHouse;
+        System.out.println(blueHouse.getColor());
+        System.out.println(anotherHouse.getColor());
+        System.out.println(greenHouse.getColor());
+
+
     }
 
 
